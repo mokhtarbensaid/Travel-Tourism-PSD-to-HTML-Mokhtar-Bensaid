@@ -1,3 +1,4 @@
+
 /**General Style**/
 body{
 
@@ -51,20 +52,9 @@ body{
     height: 100vh;
     overflow:hidden;    
 }
-@media(max-width: 991px){
-    .header{
-    height: unset;
-    }
-}
 .header-content{
     padding-top : 40vh
     
-}
-@media(max-width: 991px){
-    
-   .header-content{
-    padding-top : 30vh
-}
 }
 .header-title{
     font-size: 60px;
@@ -126,8 +116,10 @@ body{
     }
 }
 @media(max-width: 991px){
-    
-      .header .header-content{
+    .header{
+    height: unset;
+    }
+    .header .header-content{
         padding-top : 30vh
     }
    .header .form-control{
