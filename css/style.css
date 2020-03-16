@@ -50,7 +50,11 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     overflow:hidden;	
-
+}
+@media(max-width: 991px){
+    .header{
+    height: unset;
+    }
 }
 .header-content{
     padding-top : 40vh
@@ -290,8 +294,12 @@ body{
     background-size: cover; 
     padding: 100px 0;
     height: 600px;
-
     background-attachment: fixed;
+}
+@media(max-width: 991px){
+    .corners{
+    height: unset;
+    }
 }
 .corners .corners-title{
     color: #fff;
@@ -344,6 +352,11 @@ body{
     padding: 100px 0;
     height: 600px;
     background-attachment: fixed;
+}
+@media(max-width: 991px){
+    .flights{
+    height: unset;
+    }
 }
 .flights .flights-title{
     color: #fff;
